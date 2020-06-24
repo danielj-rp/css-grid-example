@@ -1,0 +1,30 @@
+.navigation {
+  grid-area: navigation;
+  background-color: #34495e;
+
+  &__list {
+  }
+
+  &__item {
+    list-style: none;
+    border-bottom: 1px solid #ecf0f1;
+  }
+
+  &__link {
+    display: block;
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    transition: 0.3s;
+    &:hover {
+      color: #34495e;
+      background-color: #ecf0f1;
+    }
+    &--active {
+      color: #34495e;
+      background-color: #ecf0f1;
+    }
+  }
+}
