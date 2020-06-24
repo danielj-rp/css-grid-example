@@ -1,8 +1,9 @@
 import React from "react";
-import "./App.scss";
+
+import ExampleOne from "./components/ExampleOne/ExampleOne";
 
 function App() {
-  return <h1>App</h1>;
+  return <ExampleOne />;
 }
 
 export default App;
