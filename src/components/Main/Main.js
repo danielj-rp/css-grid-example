@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import "./Main.scss";
 import Start from "./../Start/Start";
-import ExampleOne from "./../ExampleOne/ExampleOne";
+import ExampleOne from "../Examples/ExampleOne/ExampleOne";
 
 const Main = () => {
   return (
