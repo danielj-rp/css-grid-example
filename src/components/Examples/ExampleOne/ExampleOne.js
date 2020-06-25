@@ -6,9 +6,18 @@ import ExampleHeader from "../../ExampleHeader/ExampleHeader";
 const ExampleOne = () => {
   return (
     <>
-      <ExampleHeader title={"Example 1"} description={"description"} />
+      <ExampleHeader
+        title={"Budowa siatki"}
+        description={
+          "kontener siatki, element siatki, linie siatki, ścieżki (tory), komórka siatki, obszar (powierzchnia) siatki, przerwy w siatce "
+        }
+      />
       <ExampleArea>
-        <h1>example</h1>
+        <div className="container">
+          <div className="item-1"></div>
+          <div className="item-2"></div>
+          <div className="item-3"></div>
+        </div>
       </ExampleArea>
     </>
   );
