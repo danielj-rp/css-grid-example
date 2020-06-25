@@ -1,7 +1,8 @@
 .container {
   display: grid;
+  height: 100%;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 200px);
+  grid-template-rows: repeat(5, 1fr);
   grid-template-areas: "A A" "B D" "C D";
   gap: 100px;
 }
@@ -17,6 +18,12 @@
 }
 
 .item-3 {
-  background-color: yellow;
+  background-color: #f1c40f;
   grid-area: D;
+}
+
+.item-4 {
+  background-color: #8e44ad;
+  grid-column: 1/-1;
+  grid-row: 4/-1;
 }
