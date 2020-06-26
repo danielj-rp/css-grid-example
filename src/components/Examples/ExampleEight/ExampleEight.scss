@@ -1,3 +1,47 @@
 .container-8 {
   display: grid;
+
+  //Frakcja - zarzadzanie wolna przestrzenia
+  grid-template-columns: 1fr 1fr;
+  //   grid-template-columns: 1fr 2fr;
+  height: 400px;
+  grid-template-rows: 1fr 1fr;
+
+  //Span
+  //   grid-template-columns: 1fr 2fr 3fr;
+  //   grid-auto-flow: row dense; //dense - pozwala wejsc elementowi. ktory nie ma okreslonej pozycji przed element z okreslona pozycja, domyslnie wylaczone
+
+  //repeat()
+
+  //   grid-template-columns: repeat(3, 100px);
+
+  //   minmax()
+  //   grid-template-columns: repeat(3, minmax(100px, 300px));
+
+  //   auto-fit
+  //Do wykorzystania z funkcją repeat, jako alternatywa dla jawnego wskazania liczby wierszy/kolumn.
+  //   grid-template-columns: repeat(auto-fit, minmax(55px, 1fr));
+
+  // auto-fill
+  //Do wykorzystania z funkcją repeat, jako alternatywa dla jawnego wskazania liczby wierszy/kolumn.
+  //   grid-template-columns: repeat(auto-fit, minmax(55px, 1fr));
+
+  //min-content i /max-content
+  // zmien zawartosc w diwach na wieksza
+  //   grid-template-columns: min-content max-content min-content;
+
+  .item1Example8 {
+    background-color: teal;
+
+    //span
+    grid-column: 2 / span 1;
+  }
+
+  .item2Example8 {
+    background-color: orangered;
+  }
+
+  .item3Example8 {
+    background-color: orange;
+  }
 }
