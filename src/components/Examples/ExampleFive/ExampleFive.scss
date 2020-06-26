@@ -1,0 +1,33 @@
+// Wymuszenie
+.container-5 {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 300px 1fr minmax(100px, 300px);
+  grid-template-rows: 30vh 1fr 200px;
+  grid-template-areas: "header header header" "nav main aside" "footer footer footer";
+
+  .header {
+    grid-area: header;
+    background-color: teal;
+  }
+
+  .navgation {
+    grid-area: nav;
+    background-color: red;
+  }
+
+  .main {
+    grid-area: main;
+    background-color: green;
+  }
+
+  .aside {
+    grid-area: aside;
+    background-color: blue;
+  }
+
+  .footer {
+    grid-area: footer;
+    background-color: black;
+  }
+}

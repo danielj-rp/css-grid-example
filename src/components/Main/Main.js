@@ -6,6 +6,7 @@ import ExampleOne from "../Examples/ExampleOne/ExampleOne";
 import ExampleTwo from "../Examples/ExampleTwo/ExampleTwo";
 import ExampleThree from "../Examples/ExampleThree/ExampleThree";
 import ExampleFour from "../Examples/ExampleFour/ExampleFour";
+import ExampleFive from "../Examples/ExampleFive/ExampleFive";
 
 const Main = () => {
   return (
@@ -24,6 +25,9 @@ const Main = () => {
       </Switch>
       <Switch>
         <Route exact path="/example_4" component={ExampleFour} />
+      </Switch>
+      <Switch>
+        <Route exact path="/example_5" component={ExampleFive} />
       </Switch>
     </main>
   );

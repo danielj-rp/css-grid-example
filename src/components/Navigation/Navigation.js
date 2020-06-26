@@ -56,6 +56,16 @@ const Navigation = () => {
             Example 4
           </NavLink>
         </li>
+        <li className="navigation__item">
+          <NavLink
+            exact
+            to={"/example_5"}
+            className="navigation__link"
+            activeClassName="navigation__link--active"
+          >
+            Example 5
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
