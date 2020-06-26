@@ -66,6 +66,36 @@ const Navigation = () => {
             Example 5
           </NavLink>
         </li>
+        <li className="navigation__item">
+          <NavLink
+            exact
+            to={"/example_6"}
+            className="navigation__link"
+            activeClassName="navigation__link--active"
+          >
+            Example 6
+          </NavLink>
+        </li>
+        <li className="navigation__item">
+          <NavLink
+            exact
+            to={"/example_7"}
+            className="navigation__link"
+            activeClassName="navigation__link--active"
+          >
+            Example 7
+          </NavLink>
+        </li>
+        <li className="navigation__item">
+          <NavLink
+            exact
+            to={"/example_8"}
+            className="navigation__link"
+            activeClassName="navigation__link--active"
+          >
+            Example 8
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
