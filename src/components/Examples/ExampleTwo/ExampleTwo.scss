@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: 1fr 2fr 100px;
   grid-template-rows: 100px 200px 1fr;
-
   .e1 {
     background-color: teal;
     grid-row: 1 / span 1;
