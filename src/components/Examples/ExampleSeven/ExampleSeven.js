@@ -13,7 +13,7 @@ const ExampleSeven = () => {
       <ExampleArea>
         <div className="container-7">
           <div className="e7Item1">1</div>
-          <div className="e7Item2">2</div>
+          {/* <div className="e7Item2">2</div> */}
         </div>
       </ExampleArea>
     </>
