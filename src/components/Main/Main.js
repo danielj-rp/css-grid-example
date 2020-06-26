@@ -35,12 +35,12 @@ const Main = () => {
       <Switch>
         <Route exact path="/example_6" component={ExampleSix} />
       </Switch>
-      {/* <Switch>
+      <Switch>
         <Route exact path="/example_7" component={ExampleSeven} />
       </Switch>
       <Switch>
         <Route exact path="/example_8" component={ExampleEight} />
-      </Switch> */}
+      </Switch>
     </main>
   );
 };
