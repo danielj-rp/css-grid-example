@@ -1,0 +1,11 @@
+// Wymuszenie
+.container-4 {
+  display: grid;
+  grid-auto-rows: 100px;
+
+  .e1 {
+    background-color: teal;
+    grid-row: 3/5;
+    grid-column: 2/4;
+  }
+}

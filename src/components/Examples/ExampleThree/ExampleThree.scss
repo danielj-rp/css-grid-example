@@ -1,3 +1,56 @@
-.container {
+// -------------------
+
+// Niejawne zadeklarowanie struktury siatki - elementy maja wysokosc
+.container-3 {
   display: grid;
+
+  .e1 {
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+  }
+
+  .e2 {
+    background-color: orange;
+    height: 80px;
+    width: 300px;
+  }
+
+  .e3 {
+    background-color: olivedrab;
+    height: 100px;
+    width: 100%;
+  }
+
+  .e4 {
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+  }
 }
+
+// -------------------
+
+// Niejawne zadeklarowanie struktury siatki - elementy nie maja wysokosci
+// .container-3 {
+//   display: grid;
+//   grid-auto-rows: 100px;
+//   // grid-auto-flow: column; //domyslnie row - co jest dodawane, gdy nie ma juz miejsca
+//   // grid-auto-columns: 50px;
+
+//   .e1 {
+//     background-color: teal;
+//   }
+
+//   .e2 {
+//     background-color: orange;
+//   }
+
+//   .e3 {
+//     background-color: olivedrab;
+//   }
+
+//   .e4 {
+//     background-color: orangered;
+//   }
+// }

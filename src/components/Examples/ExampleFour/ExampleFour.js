@@ -1,17 +1,14 @@
 import React from "react";
-import "./ExampleTwo.scss";
+import "./ExampleFour.scss";
 import ExampleArea from "../../ExampleArea/ExampleArea";
 import ExampleHeader from "../../ExampleHeader/ExampleHeader";
 
-const ExampleTwo = () => {
+const ExampleFour = () => {
   return (
     <>
-      <ExampleHeader
-        title={"Jawne deklarowanie struktury siatki"}
-        description={""}
-      />
+      <ExampleHeader title={"Wymuszenie struktury siatki"} description={""} />
       <ExampleArea>
-        <div className="container-2">
+        <div className="container-4">
           <div className="e1"></div>
         </div>
       </ExampleArea>
@@ -19,4 +16,4 @@ const ExampleTwo = () => {
   );
 };
 
-export default ExampleTwo;
+export default ExampleFour;
